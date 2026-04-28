@@ -1,0 +1,102 @@
+@media (min-width: 768px) {
+    .banner .bn{
+        max-width:unset; 
+    }
+    .banner .bn img:first-child{
+        display: none;
+    }
+    .banner .bn img:last-child{
+        display: block;
+        width: 100%;
+    }
+    /* banner 끝 */
+
+    /* main_bn start*/
+    .s1 div{
+        margin-bottom: 40px;
+    }
+    .s1{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .s1 img{
+        width: 100%;
+        padding: unset;
+    }
+    .s1 .bn1_txt{
+        text-align: left;
+    }
+    .s1 .bn2_txt{
+        text-align: right;
+    }
+    .s1 .bn1_txt,
+    .s1 .bn2_txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        order: 3;
+    }
+    .s1 .bn2{
+        order: 4;
+    }
+    /* s1 끝 */
+
+    /* event start */
+    .event .con {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .event .box{
+        padding: 20px;
+    }
+    .event img{
+        height: 100px;
+    }
+    /* event 끝 */
+
+    /* s3 start */
+    .s3{
+    height: 350px;
+    position: relative;
+    background-image: url(../images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  unset;
+    text-align: unset;
+    }
+    .s3:after {
+       display: none;
+    }
+    .s3 .txt{
+        margin: 15px 50px;
+        position: relative;
+        z-index: 2;
+    }
+    .s3 h2{
+        font-size: 28px;
+    }
+    .s3 h2 span{
+        font-weight: normal;
+    }
+    .s3 .webtxt{
+        display: block;
+        font-style: normal;
+        font-size: 30px;
+        font-family: donut;
+    }
+    .s3 .wtxt{
+        display: block;
+        padding-top: 20px;
+    }
+    .s3 .btn{
+        display: flex;
+        text-align: center;
+    }
+    .s3 .btn1,
+    .s3 .bnt2{
+        margin: 10px auto;
+        z-index: 3;
+    }
+}
